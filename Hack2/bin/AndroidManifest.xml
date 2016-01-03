@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hack2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hack2.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hack2.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.hack2.Levels"
+            android:label="@string/title_activity_levels" >
+        </activity>
+        <activity
+            android:name="com.example.hack2.LevelP"
+            android:label="@string/title_activity_level_p" >
+        </activity>
+        <activity
+            android:name="com.example.hack2.Level1"
+            android:label="@string/title_activity_level1" >
+        </activity>
+        <activity
+            android:name="com.example.hack2.Trythis"
+            android:label="@string/title_activity_trythis" >
+        </activity>
+        <activity
+            android:name="com.example.hack2.Level2"
+            android:label="@string/title_activity_level2" >
+        </activity>
+        <activity
+            android:name="com.example.hack2.Facts"
+            android:label="@string/title_activity_facts" >
+        </activity>
+    </application>
+
+</manifest>
